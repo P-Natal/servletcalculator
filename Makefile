@@ -1,5 +1,8 @@
-run:
-    mvn clean install ; docker-compose up;
+run: build
+	docker-compose up
 
-run-d:
-    mvn clean install ; docker-compose up -d;
+run-d: build
+	docker-compose up -d
+
+build:
+	mvn clean install
