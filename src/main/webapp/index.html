@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <link rel="stylesheet" href="styles.css">
+        <title>Calculator</title>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>Calculator</h1>
+        </div>
+        <div class="calculator">
+            <form action="calculator" method="get">
+                <div class="numbers">
+                    <label>first number:</label>
+                    <input type="text" name="firstNumber" />
+                    <br>
+                    <label>Second number:</label>
+                    <input type="text" name="secondNumber" />
+                    <br>
+                </div>
+                <div class="operations">
+                    <input type="radio" name="addition" value="add" />Addition
+                    <br />
+                    <input type="radio" name="subtraction" value="sub" />Subtraction
+                    <br />
+                    <input type="radio" name="multiplication" value="mul" />Multiplication
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Calculate"/>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
